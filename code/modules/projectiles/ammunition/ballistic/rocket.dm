@@ -29,6 +29,13 @@
 	base_icon_state = "low_yield_rocket"
 	projectile_type = /obj/projectile/bullet/rocket/weak
 
+/obj/item/ammo_casing/rocket/apbad
+	name = "\improper Makeshift AP rocket"
+	desc = "An Makeshift 84mm PEP rocket. This looks like a bad idea."
+	icon_state = "low_yield_rocket"
+	base_icon_state = "low_yield_rocket"
+	projectile_type = /obj/projectile/bullet/rocket/pep
+
 /obj/item/ammo_casing/rocket/reverse
 	projectile_type = /obj/projectile/bullet/rocket/reverse
 
