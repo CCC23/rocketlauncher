@@ -110,7 +110,16 @@
 		alongside the words \"Front Toward Enemy\" are printed on the tube. \
 		A sticker near the back of the launcher warn to \"CHECK BACKBLAST CLEAR BEFORE FIRING\", whatever that means."
 	pin = /obj/item/firing_pin
+	icon = 'icons/obj/weapons/guns/wide_guns.dmi'
 
+/obj/item/gun/ballistic/rocketlauncher/makeshiftrpg
+	name = "\improper Makeshift Rocket Launcher"
+	desc = "A crude rocket launcher made out of a cardboard tube and some scrap no way this could go wrong"
+	pin = /obj/item/firing_pin
+	icon_state = "makeshift_rpg"
+	inhand_icon_state = "makeshift_rpg"
+	worn_icon_state = "makeshift_rpg"
+	backblast = FALSE
 /obj/item/gun/ballistic/rocketlauncher/nobackblast
 	name = "\improper Dardo-REF Flameless Rocket Launcher"
 	desc = "A reusable rocket propelled grenade launcher. An arrow pointing toward the front of the launcher \
